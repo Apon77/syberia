@@ -23,6 +23,8 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common Syberia stuff.
 $(call inherit-product, vendor/syberia/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+SYBERIA_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido

@@ -30,7 +30,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+    #framework-res
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
